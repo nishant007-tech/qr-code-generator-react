@@ -1,0 +1,80 @@
+.InputUrl{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  margin:40px auto;
+}
+.InputUrl input{
+  height: 30px;
+  border-radius: 5px;
+  border: 0.2px solid;
+  outline: none;
+  font-size: 16px;
+}
+.InputUrl input:focus{
+  border: 1px solid rgb(104, 201, 240);
+  box-shadow: 0 0 1px 2px rgb(107, 198, 235);
+transition: 0.3s;
+}
+.InputUrl button{
+  width: 20%;
+  margin: 20px auto;
+  padding: 7px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.InputUrl button a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.InputUrl button:hover{
+  box-shadow: 0 0 1px 2px salmon;
+transition: 0.3s;
+
+}
+.icon a{
+  color: rgb(107, 198, 235);
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.QRContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px ;
+  width: 100%;
+}
+.DownloadBtn{
+  margin-top: 20px;
+  text-align: center;
+  padding: 6px;
+}
+.DownloadBtn button{
+  color: white;
+  background-color: black;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.backBtn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.backBtn a{
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(107, 198, 235);
+}
+.backBtn a i{
+  margin-right: 5px;
+}
